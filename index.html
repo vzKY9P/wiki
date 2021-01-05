@@ -1,21 +1,3 @@
-<!-- <?php
-	session_start();
-	if (isset($_GET['exit'])) {
-		session_destroy();
-		header('Location: /');
-		exit();
-	} else if (isset($_SESSION['id'])) {
-		require('inc/cabinet.html');
-	} else if (isset($_GET['action'])) {
-		$success = @include('inc/' . $_GET['action'] . '.html');
-		if ($success != 1) {
-			header('Location: /');
-		}
-	} else {
-		require('inc/landing.html');
-	}
-	$_SESSION['message'] = '';
-?> -->
 <!DOCTYPE html>
 <html class="client-js" lang="ru" dir="ltr">
    <head>
