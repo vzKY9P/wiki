@@ -36,7 +36,6 @@ tr{
 	display: flex;
 	flex-direction: column;
 	text-align: center;
-	padding: 10px;
 	box-sizing: border-box;
 	flex-wrap: nowrap;
 	white-space: nowrap;
@@ -45,4 +44,8 @@ tr{
 .child:nth-of-type(2){
 	width: 90%;
 	white-space: unset;
+}
+.event{
+	border-bottom: 2px solid black;
+	padding-bottom: 10px;
 }
